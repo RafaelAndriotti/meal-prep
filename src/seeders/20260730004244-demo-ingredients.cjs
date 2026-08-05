@@ -1,6 +1,7 @@
 'use strict';
 
-const ingredients = [// ---------- Carnes, ovos e peixes ----------
+const ingredients = [
+  // ---------- Carnes, ovos e peixes ----------
   { name: 'Peito de frango grelhado', unit: 'g', calories_per_100g: 165, protein_per_100g: 31.0, carbs_per_100g: 0.0, fat_per_100g: 3.6 },
   { name: 'Coxa de frango assada sem pele', unit: 'g', calories_per_100g: 185, protein_per_100g: 24.0, carbs_per_100g: 0.0, fat_per_100g: 9.5 },
   { name: 'Ovo de galinha cozido', unit: 'g', calories_per_100g: 155, protein_per_100g: 13.0, carbs_per_100g: 1.1, fat_per_100g: 11.0 },
