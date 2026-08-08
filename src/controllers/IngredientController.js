@@ -79,7 +79,7 @@ class IngredientController {
             }
 
             await ingredient.destroy()
-            return res.status(200).json({ message: `registro ${ id } deletado com sucesso.` });
+            return res.status(204).end();
 
         } catch (error) {
             next(error);
